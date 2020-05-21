@@ -22,17 +22,17 @@ function Cart({ basketProps, productQuantity, clearProduct }) {
   });
 
   const productImages = (product) => {
-    if (product.tagName === "newYorkShirt") {
+    if (product.tagName === "nyc") {
       return green;
-    } else if (product.tagName === "whiteLogoShirt") {
+    } else if (product.tagName === "logo") {
       return black;
-    } else if (product.tagName === "designLogoShirt") {
+    } else if (product.tagName === "design") {
       return bg;
-    } else if (product.tagName === "solidStripeShirt") {
+    } else if (product.tagName === "stripe") {
       return red;
-    } else if (product.tagName === "plainWhiteShirt") {
+    } else if (product.tagName === "white") {
       return white;
-    } else if (product.tagName === "pinkPoloShirt") {
+    } else if (product.tagName === "pink") {
       return pink;
     }
   };
