@@ -68,7 +68,7 @@ const Home = (props) => {
       <div className="image">
         <img src={white} alt="plain shirt" />
         <h3>White Plain Shirt </h3>
-        <h3>$25.00 (Designer )</h3>
+        <h3>$25.00 (Designer)</h3>
         <button
           onClick={() => props.addBasket("white")}
           className="addToCart cart5"
