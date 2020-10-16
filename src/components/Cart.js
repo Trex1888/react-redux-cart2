@@ -1,7 +1,6 @@
 import React, { Fragment } from "react";
 import { connect } from "react-redux";
 import { productQuantity, clearProduct } from "../actions/productQuantity";
-
 import bg from "../images/bg.jpg";
 import black from "../images/black.jpg";
 import green from "../images/green.jpg";
